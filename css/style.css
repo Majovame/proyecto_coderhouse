@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Sigmar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #6c5b7b;
+
+}
+@font-face{
+    font-family: "Dellarespira";
+    src: url("../fonts/DellaRespira-Regular.ttf");
+}
+
+/*color cuerpo de la pagina*/
+body{
+    background-color: rgb(#f3eded);
+}
+
+/*titulo*/
+
+h1{
+    color:blueviolet
+    
+}
+.texto-principal h1{
+    font-family: Dellarespira;
+}
+
+/*fin de arreglos del titulo*/
+
+/*encabezado de la pagina*/
+
+ul{
+    padding-top: 10px;
+    padding-bottom: 13px;
+}
+
+ul li{
+    padding: 15px;
+    display: inline;
+    font-size: 25px;
+
+    
+}
+
+/*subtitulos*/
+h2{
+    text-align: left;
+    font-size: 30px;
+    color: crimson;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-family: DellaRespira;
+}
+
+.container5-subtitulos h2{
+    display: flex;
+    align-items: center;   
+    flex-direction: row-reverse; 
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+.title h2{
+    display: inline-block left;
+    width: 50%;
+    
+}
+
+p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+p{
+    font-size: 1em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    
+}
+
+h3{
+    text-align: left;
+    font-size: 30px;
+    color: crimson;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+/*footer*/
+h4{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: left;
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+h5{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-top: 2rem;
+    color: darkmagenta;
+    font-size: 30px;
+    
+}
+
+/* inicio de imagenes principales */
+
+.img-principal1 img{
+    width: 1020px;
+    height: 318px;
+    left: 500vw;
+    background-size: cover 300px;
+    
+}
+
+.container img{
+    width: 1020px;
+    height: 650px;
+    left: 500vw;
+    display: inline-block;
+}
+
+.container2 img{
+    width: 1020px;
+    height: 650px;
+    left: 500vw;
+    display: inline-block;
+}
+
+.container3 img{
+    width: 1020px;
+    height: 650px;
+    left: 500vw;
+    display: inline-block;
+}
+
+.container4 img{
+    width: 1020px;
+    height: 650px;
+    left: 500vw;
+    display: inline-block;
+}
+
+/* fin de las imagenes principales*/
+
+
+/* inicio de imagenes secundarias */
+
+.img-aretes img{
+    border-radius: 38%;
+    width: 300px;
+    height: 400px;
+}
+
+.texto-titulo{
+    position: absolute;
+    bottom: -30%;
+    height: 10%;
+    width: 500px;
+    right: 750px;
+    top: 800px;
+    left: 600px;
+    transform: translate(-50%, -50%);
+}
+
+
+.texto-aretes{
+    position: absolute;
+    bottom: -30%;
+    height: 10%;
+    width: 500px;
+    right: 750px;
+    top: 800px;
+    left: 550px;
+    background-color: #f3efe0;
+    color: #222222;
+    transform: translate(-50%, -50%);
+}
+
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
