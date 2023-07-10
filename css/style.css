@@ -114,18 +114,21 @@ h5{
 /* inicio de imagenes principales */
 
 .img-principal1 img{
-    width: 1080px;
-    height: 318px;
-    left: 500vw;
-    background-size: cover 300px;
+    width: 1099px;
+    height: 600px;
+    left: 600vw;
+    background-size: cover 1050px;
+    display: inline-block 50%;
+    
     
 }
 
 .container img{
-    width: 4000px;
-    height: 800px;
-    left: 900vw;
-    display: inline-block;
+    width: 4080px;
+    height: 1000px;
+    left: 1000vw;
+    display: inline-block 50%;
+    background-size: cover 1550px;
 }
 
 .container2 img{
