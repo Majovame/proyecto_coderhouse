@@ -114,7 +114,7 @@ h5{
 /* inicio de imagenes principales */
 
 .img-principal1 img{
-    width: 1020px;
+    width: 1080px;
     height: 318px;
     left: 500vw;
     background-size: cover 300px;
@@ -122,9 +122,9 @@ h5{
 }
 
 .container img{
-    width: 1020px;
-    height: 650px;
-    left: 500vw;
+    width: 4000px;
+    height: 800px;
+    left: 900vw;
     display: inline-block;
 }
 
