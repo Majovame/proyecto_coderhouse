@@ -124,11 +124,15 @@ h5{
 }
 
 .container img{
-    width: 4080px;
-    height: 1000px;
-    left: 1000vw;
+    width: 2090px;
+    height: 70vh;
+    left: 700vw;
     display: inline-block 50%;
-    background-size: cover 1550px;
+    background-size: cover 1050px;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 200px 50px 0px;
+    
 }
 
 .container2 img{
@@ -183,12 +187,11 @@ h5{
     right: 750px;
     top: 800px;
     left: 550px;
-    background-color: #f3efe0;
     color: #222222;
     transform: translate(-50%, -50%);
 }
 
-    
+    /* arreglos del footer*/
 
 
 
