@@ -14,11 +14,6 @@
     src: url("../fonts/DellaRespira-Regular.ttf");
 }
 
-/*color cuerpo de la pagina*/
-body{
-    background-color: rgb(#f3eded);
-}
-
 /*titulo*/
 
 h1{
@@ -42,8 +37,7 @@ ul li{
     padding: 15px;
     display: inline;
     font-size: 25px;
-
-    
+ 
 }
 
 /*subtitulos*/
@@ -93,23 +87,7 @@ h3{
     padding-bottom: 10px;
 }
 
-/*footer*/
-h4{
-    padding-top: 25px;
-    padding-bottom: 10px;
-    text-align: left;
-    color: darkmagenta;
-    font-size: 30px;
-}
 
-h5{
-    padding-top: 25px;
-    padding-bottom: 10px;
-    padding-top: 2rem;
-    color: darkmagenta;
-    font-size: 30px;
-    
-}
 
 /* inicio de imagenes principales */
 
@@ -179,23 +157,21 @@ h5{
 }
 
 
-.texto-aretes{
-    position: absolute;
-    bottom: -30%;
-    height: 10%;
-    width: 500px;
-    right: 750px;
-    top: 800px;
-    left: 550px;
-    color: #222222;
-    transform: translate(-50%, -50%);
-}
 
-    /* arreglos del footer*/
+    /* icono de wpp*/
 
-
-
-
+    .wsp {
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+        object-fit: cover;
+        position: fixed;
+        bottom: 15px;
+        right: 15px;
+        z-index: 1;
+        cursor: pointer;
+      }
+/* fin del icono de wpp*/
 
 
 
