@@ -17,32 +17,39 @@
 </head>
 <body>
     <header>
-    
-        <div class="texto-principal">
-            <h1>COROZO.</h1>
-        </div>
-       
-    <nav>
-        <ul>
-            <li> <a href="../proyecto_coderhouse/index.html">Inicio</a></li>
-            <li> <a href="./pages/blusas.html">Blusas</a></li>
-            <li> <a href="./pages/accesorios.html">Accesorios</a></li>
-            <li> <a href="./pages/bolsos.html">Bolsos</a></li>
-            <li> <a href="./pages/salidadebano.html">Salidas de baño</a></li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="d-inline-block align-text-top" src="images/logo-corozo.png" alt="logo_corozo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link" href="pages/blusas.html">Blusas</a>
+                  <a class="nav-link" href="pages/accesorios.html">Accesorios</a>
+                  <a class="nav-link" href="pages/bolsos.html">Bolsos</a>
+                  <a class="nav-link" href="pages/salidadebano.html">Salidas de baño</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+          
+<main>
+
     <div class="img-principal1">
-        <img src="images/Imagen-Principal-1.jpg" alt="portada">
+        <img src="images/Imagen-Principal-1.jpg" alt="imagen de bienvenida">
     </div>
 
-</header>
-<main>
     <hr>
     <section>
-        <div>
-            <h2>Nueva coleccion.</h2>
-
-        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-primary" href="#!" class="btn btn-info"><h1>NUEVA COLECCIÓN.</h1></a>
+          </div>
 
         <div class="img-aretes" class="container.">
             <div class="row">  
@@ -50,7 +57,7 @@
 
             <img src="./images/nueva-coleccion-1.jpg" alt="Aretes" class="img-fluid">
             
-            <h3 class="text-titulo">ARETES SOÑADORES.</h3>
+            <h2>ARETES SOÑADORES.</h2>
 
             <p>Nuestros aretes de macramé son una expresión de elegancia y creatividad. Cada par ha sido 
                 meticulosamente tejido a mano con hilos de alta calidad, creando diseños únicos y cautivadores.</p>

@@ -14,31 +14,22 @@
     src: url("../fonts/DellaRespira-Regular.ttf");
 }
 
-/*titulo*/
 
-h1{
+/* arreglos header*/
+
+  .header img-principal1{
+    background: url(../images/Imagen-Principal-1.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+  }
+  .navbar-corozo{
     color:rgb(60, 218, 210)
-    
-}
-.texto-principal h1{
-    font-family: Dellarespira;
-}
 
-/*fin de arreglos del titulo*/
+ }
 
-/*encabezado de la pagina*/
 
-ul{
-    padding-top: 10px;
-    padding-bottom: 13px;
-}
+/*fin de los arreglos header*/
 
-ul li{
-    padding: 15px;
-    display: inline;
-    font-size: 25px;
- 
-}
 
 /*subtitulos*/
 h2{
@@ -59,11 +50,7 @@ h2{
     clear: both;
 }
 
-.title h2{
-    display: inline-block left;
-    width: 50%;
-    
-}
+/*arreglos de textos */
 
 p{
     text-indent: 50px;
@@ -89,17 +76,24 @@ h3{
 
 
 
-/* inicio de imagenes principales */
+/* inicio de imagenes principles */
 
-.img-principal1 img{
-    width: 1099px;
-    height: 600px;
-    left: 600vw;
+.img-principal1 {
+    position: center;
+    width: auto;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .imagenes_principales img {
+    width: 2090px;
+    height: auto;
+    display: inline-block;
     background-size: cover 1050px;
-    display: inline-block 50%;
+    background-position: center;
+    background-repeat: no-repeat;
     
-    
-}
+  }
 
 .container img{
     width: 2090px;
@@ -145,7 +139,7 @@ h3{
     height: 400px;
 }
 
-.texto-titulo{
+.text-titulo{
     position: absolute;
     bottom: -30%;
     height: 10%;
@@ -172,12 +166,5 @@ h3{
         cursor: pointer;
       }
 /* fin del icono de wpp*/
-
-
-
-
-
-    
-
 
 
