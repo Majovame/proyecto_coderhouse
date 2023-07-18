@@ -1,170 +1,80 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Sigmar&display=swap');
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-    background-color: #6f31a5;
-
-}
-@font-face{
-    font-family: "Dellarespira";
-    src: url("../fonts/DellaRespira-Regular.ttf");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Sigmar&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
-
-/* arreglos header*/
-
-  .header img-principal1{
-    background: url(../images/Imagen-Principal-1.jpg) no-repeat center;
-    background-size: cover;
-    min-height: 100vh;
-  }
-  .navbar-corozo{
-    color:rgb(60, 218, 210)
-
- }
-
-
-/*fin de los arreglos header*/
-
-
-/*subtitulos*/
-h2{
-    text-align: left;
-    font-size: 30px;
-    color: crimson;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    font-family: DellaRespira;
+h1 {
+  font-size: 20px;
 }
 
-.container5-subtitulos h2{
-    display: flex;
-    align-items: center;   
-    flex-direction: row-reverse; 
-    float: left;
-    width: 100%;
-    clear: both;
+/* ~~ Colores Referencia ~~ */
+colores {
+  color: #6f31a5;
+  color: #A076F9;
+  color: #45CFDD;
+  color: #643843;
 }
 
-/*arreglos de textos */
-
-p{
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 1px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    
-}
-p{
-    font-size: 1em;
-    line-height: 1.2em;
-    text-transform: uppercase;
-    
+/* ~~ Fin Colores Referencia~~ */
+/* ~~ h1 ~~ */
+.rectangulo_principal {
+  height: 100px;
+  width: 100px;
+  color: #45CFDD;
+  background-color: rgb(77, 77, 77);
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-h3{
-    text-align: left;
-    font-size: 30px;
-    color: crimson;
-    padding-top: 15px;
-    padding-bottom: 10px;
+/* ~~ Fin h1 ~~ */
+/* ~~ Imagenes principales ~~ */
+.imagen_principal {
+  position: relative;
+  width: auto;
+  display: inline-block;
+  overflow: hidden;
 }
 
-
-
-/* inicio de imagenes principles */
-
-.img-principal1 {
-    position: center;
-    width: auto;
-    display: inline-block;
-    overflow: hidden;
-  }
-
-  .imagenes_principales img {
-    width: 2090px;
-    height: auto;
-    display: inline-block;
-    background-size: cover 1050px;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-  }
-
-.container img{
-    width: 2090px;
-    height: 70vh;
-    left: 700vw;
-    display: inline-block 50%;
-    background-size: cover 1050px;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 50px 200px 50px 0px;
-    
+.imagenes_principales img {
+  width: 100%;
+  height: auto;
+  display: inline-block;
 }
 
-.container2 img{
-    width: 1020px;
-    height: 650px;
-    left: 500vw;
-    display: inline-block;
+/* ~~ Fin Imagenes ~~ */
+/* ~~ botones centrados ~~ */
+.d-grid a {
+  background-color: #434242;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.container3 img{
-    width: 1020px;
-    height: 650px;
-    left: 500vw;
-    display: inline-block;
+.wsp {
+  background-color: #22A39F;
+  transform: 2.5;
 }
 
-.container4 img{
-    width: 1020px;
-    height: 650px;
-    left: 500vw;
-    display: inline-block;
+/* ~~ icono whatsapp ~~ */
+.wsp {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 1;
+  cursor: pointer;
 }
 
-/* fin de las imagenes principales*/
+/* ~~ Fin icono whatsapp ~~ */
 
-
-/* inicio de imagenes secundarias */
-
-.img-aretes img{
-    border-radius: 38%;
-    width: 300px;
-    height: 400px;
-}
-
-.text-titulo{
-    position: absolute;
-    bottom: -30%;
-    height: 10%;
-    width: 500px;
-    right: 750px;
-    top: 800px;
-    left: 600px;
-    transform: translate(-50%, -50%);
-}
-
-
-
-    /* icono de wpp*/
-
-    .wsp {
-        width: 50px;
-        height: 50px;
-        border-radius: 100%;
-        object-fit: cover;
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
-        z-index: 1;
-        cursor: pointer;
-      }
-/* fin del icono de wpp*/
-
-
+/*# sourceMappingURL=style.css.map */

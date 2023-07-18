@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Sigmar&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1{
+    font-size: 20px;
+}
+
+
+/* ~~ Colores Referencia ~~ */
+
+colores{
+    color: #6f31a5;
+    color: #A076F9;
+    color: #45CFDD;
+    color: #643843;
+}
+
+/* ~~ Fin Colores Referencia~~ */
+
+/* ~~ h1 ~~ */
+.rectangulo_principal {
+    height: 100px;
+    width: 100px;
+    color:#45CFDD;
+    background-color: rgb(77,77,77);
+    border-radius:7px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+
+/* ~~ Fin h1 ~~ */
+
+
+
+/* ~~ Imagenes principales ~~ */
+
+.imagen_principal{
+    position: relative;
+    width: auto;
+    display: inline-block;
+    overflow: hidden
+
+}
+
+.imagenes_principales img{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+/* ~~ Fin Imagenes ~~ */
+
+/* ~~ botones centrados ~~ */
+.d-grid a{
+    background-color: #434242;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wsp{
+    background-color: #22A39F;
+    transform: 2.5;
+} 
+
+/* ~~ icono whatsapp ~~ */
+.wsp {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+/* ~~ Fin icono whatsapp ~~ */
