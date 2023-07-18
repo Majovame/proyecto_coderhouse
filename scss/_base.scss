@@ -10,6 +10,12 @@
 
 }
 
+/* ~~body~~ */
+body {
+    background-color: #6f31a5; 
+  }
+/* ~~fin de body~~ */
+
 h1{
     font-size: 20px;
 }
@@ -50,8 +56,9 @@ colores{
     width: auto;
     display: inline-block;
     overflow: hidden
-
+    
 }
+
 
 .imagenes_principales img{
     width: 100%;
@@ -59,11 +66,17 @@ colores{
     display: inline-block;
 }
 
+.texto_titulo_principal{
+    
+    text-align: center;
+    
+}
+
 /* ~~ Fin Imagenes ~~ */
 
 /* ~~ botones centrados ~~ */
 .d-grid a{
-    background-color: #434242;
+    background-color: #df1c4d;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;

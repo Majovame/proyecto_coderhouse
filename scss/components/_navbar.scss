@@ -1,0 +1,23 @@
+/* ~~ navbar ~~ */
+.navbar{
+    font-size: large;
+    background-color: #d43b95;
+
+    .d-inline-block{
+        width: 65%;
+        height: auto;
+        padding-top:2px;
+        justify-content: flex-end;
+    }
+
+    a{
+        text-decoration: none;
+        color: #C0C0C0;
+        font-size: 20px;
+        text-transform: uppercase;
+        display: flex;
+        
+    }
+}
+
+/* ~~ Fin Top Navigation Bar ~~ */
